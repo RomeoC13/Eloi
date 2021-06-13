@@ -13,8 +13,8 @@
 [INFO] - Lua mem usage: 589 KB and 257 bytes
 [INFO] - Running Lua Script: resources/scripts/main.lua
 [INFO] - Lua mem usage: 608 KB and 435 bytes
-[INFO] - Binding of Isaac: Repentance v1.06.J791
-[INFO] - load archives: 15887 milliseconds
+[INFO] - Binding of Isaac: Repentance v1.06.J796
+[INFO] - load archives: 10264 milliseconds
 [INFO] - Initialize ColorOffset Shader
 [INFO] - Initialize Pixelation Shader
 [INFO] - Initialize Bloom Shader
@@ -34,7 +34,7 @@
 [INFO] - Initialize Dizzy Shader
 [INFO] - Initialize Heat Wave Shader
 [INFO] - Initialize Mirror Shader
-[INFO] - preload anm2: 144 milliseconds
+[INFO] - preload anm2: 147 milliseconds
 [INFO] - Setting PersistentGameData ReadOnly to False
 [INFO] - Viewport: 960x540
 [INFO] - Framebuffer Width: 960 
@@ -52,19 +52,12 @@
  DP per point: 1.000000 
  Point Scale: 2.250000 
 [INFO] - HQX4 size: 960x540
-[INFO] - Cutscene: correct anm2 timing: f37 -> f40
-[INFO] - CPU time spent on enemy queries: 0.00 seconds.
-idth: 1920 
- Multiplier: 0.222222 
- DP per point: 1.000000 
- Point Scale: 4.500000 
-[INFO] - HQX4 size: 1920x1080
-[INFO] - Cutscene: correct anm2 timing: f36 -> f43
-[INFO] - Viewport: 1920x1080
-[INFO] - Framebuffer Width: 1920 
+[INFO] - Cutscene: correct anm2 timing: f97 -> f104
+[INFO] - Viewport: 960x540
+[INFO] - Framebuffer Width: 960 
  Render Width: 960 
- Window Width: 1920 
- Multiplier: 4.500010 
+ Window Width: 960 
+ Multiplier: 2.250010 
  DP per point: 1.000000 
  Point Scale: 2.000000 
 [INFO] - HQX4 size: 960x540
@@ -78,7 +71,7 @@ idth: 1920
 [INFO] - Setting PersistentGameData ReadOnly to False
 [INFO] - Loading PersistentData 1 from SteamCloud!
 [INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - read checksum: 0206d3c4, generated checksum: 0206d3c4
+[INFO] - read checksum: e651bb88, generated checksum: e651bb88
 [INFO] - Reading Achievements
 [INFO] - Done Reading Achievements
 [INFO] - Reading Counters
@@ -103,11 +96,11 @@ idth: 1920
 [INFO] - Done Reading Bestiary Counters
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
 [INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - [warn] GameState header is incorrect (137 != 136).
+[INFO] - GameState Version Loaded: 137
 [INFO] - Setting PersistentGameData ReadOnly to False
 [INFO] - Loading PersistentData 2 from SteamCloud!
 [INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata2.dat.
-[INFO] - read checksum: 18fff932, generated checksum: 18fff932
+[INFO] - read checksum: 06717e26, generated checksum: 06717e26
 [INFO] - Reading Achievements
 [INFO] - Done Reading Achievements
 [INFO] - Reading Counters
@@ -178,7 +171,7 @@ idth: 1920
 [INFO] - Setting PersistentGameData ReadOnly to False
 [INFO] - Loading PersistentData 1 from SteamCloud!
 [INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - read checksum: 138000d5, generated checksum: 138000d5
+[INFO] - read checksum: f314dd92, generated checksum: f314dd92
 [INFO] - Reading Achievements
 [INFO] - Done Reading Achievements
 [INFO] - Reading Counters
@@ -203,180 +196,63 @@ idth: 1920
 [INFO] - Done Reading Bestiary Counters
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
 [INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - SteamCloud could not find or open rep_gamestate1.dat. No Game State detected.
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - RNG Start Seed: 7GCM T1XQ (3865823011)
-[INFO] - Preload sound 0.
+[INFO] - GameState Version Loaded: 137
 [INFO] - Initialized player with Variant 0 and Subtype 7
-[INFO] - Level::Init m_Stage 1, m_StageType 0 Seed 50489395
+[INFO] - Preload sound 0.
+[INFO] - RNG Start Seed: 7GCM T1XQ (3865823011)
+[INFO] - Setting PersistentGameData ReadOnly to False
+[INFO] - Adding costume for 11 () which was added before and never removed.
 [INFO] - delete 0 generated rooms.
-[INFO] - [RoomConfig] load stage 1: Basement (mode 0)
-[INFO] - allocate 1115 rooms.
 [INFO] - [RoomConfig] load stage 0: Special Rooms (mode 0)
 [INFO] - allocate 1237 rooms.
-[INFO] - generate...
-[INFO] - place_room: shape 9
-[INFO] - 9 rooms in 5 loops
-[INFO] - placing rooms...
+[INFO] - [RoomConfig] load stage 1: Basement (mode 0)
+[INFO] - allocate 1115 rooms.
 [INFO] - [RoomConfig] load stage 13: ??? (mode 0)
 [INFO] - allocate 30 rooms.
-[INFO] - Map Generated in 1 Loops
-[INFO] - CURRENT ROOM INDEX 84 208b2ccc
+[INFO] - Room 4.32()
+[INFO] - SpawnRNG seed: 412214215
+[INFO] - Lua mem usage: 608 KB and 335 bytes
+[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
 [INFO] - Room 1.2(Start Room)
 [INFO] - SpawnRNG seed: 3760910320
 [INFO] - Lua mem usage: 608 KB and 335 bytes
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Room 4.32()
-[INFO] - SpawnRNG seed: 412214215
-[INFO] - Spawn Entity with Type(5), Variant(100), Pos(320.00,320.00)
-[INFO] - Spawn Entity with Type(61), Variant(5), Pos(320.00,400.00)
-[INFO] - Lua mem usage: 608 KB and 335 bytes
 [INFO] - music stopped playing
-[INFO] - item taken without exchange
-[INFO] - item queue flush
-[INFO] - Adding collectible 303 (Virgo) to player 0 (Azazel)
-[INFO] - Total entity spawn time: 40 ms
-[INFO] - Total ANM2 loading time: 245 ms
-[INFO] - AnmCache memory usage: 20639768 bytes in 1359 entries.
+[INFO] - Room 1.944(New Room (copy))
+[INFO] - SpawnRNG seed: 1314525464
+[INFO] - Spawn Entity with Type(5), Variant(0), Pos(160.00,400.00)
+[INFO] - Spawn Entity with Type(5), Variant(0), Pos(320.00,400.00)
+[INFO] - Spawn Entity with Type(5), Variant(0), Pos(480.00,400.00)
+[INFO] - Lua mem usage: 608 KB and 335 bytes
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - CPU time spent on enemy queries: 0.00 seconds.
-[INFO] - Menu Manager preCrossfade
-[INFO] - Menu Manager Init
-[INFO] - Menu Title Init
-[INFO] - Menu Save Init
-[INFO] - Menu_Save Pre Prompt init
-[INFO] - Menu_Save loading slot drawings
-[INFO] - Menu Save Reset
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 1 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - read checksum: 0349f0d9, generated checksum: 0349f0d9
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading Bestiary Counters
-[INFO] - Done Reading Bestiary Counters
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - GameState Version Loaded: 136
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 2 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata2.dat.
-[INFO] - read checksum: 19332e59, generated checksum: 19332e59
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading Bestiary Counters
-[INFO] - Done Reading Bestiary Counters
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata2.dat.
-[INFO] - Loading GameState 2 from SteamCloud!
-[INFO] - SteamCloud could not find or open rep_gamestate2.dat. No Game State detected.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 3 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata3.dat.
-[INFO] - read checksum: 122f49a0, generated checksum: 122f49a0
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata3.dat.
-[INFO] - Loading GameState 3 from SteamCloud!
-[INFO] - SteamCloud could not find or open rep_gamestate3.dat. No Game State detected.
-[INFO] - Setting PersistentGameData ReadOnly to False
-[INFO] - Loading PersistentData 1 from SteamCloud!
-[INFO] - Loading PersistentGameData from Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - read checksum: e68ba6b2, generated checksum: e68ba6b2
-[INFO] - Reading Achievements
-[INFO] - Done Reading Achievements
-[INFO] - Reading Counters
-[INFO] - Done Reading Counters
-[INFO] - Reading Level Counters
-[INFO] - Done Reading Level Counters
-[INFO] - Reading Collectibles
-[INFO] - Done Reading Collectibles
-[INFO] - Reading Mini Bosses
-[INFO] - Done Reading Mini Bosses
-[INFO] - Reading Bosses
-[INFO] - Done Reading Bosses
-[INFO] - Reading Challenge Counters
-[INFO] - Done Reading Challenge Counters
-[INFO] - Reading Cutscene Counters
-[INFO] - Done Reading Cutscene Counters
-[INFO] - Reading GameSettings
-[INFO] - Done Reading GameSettings
-[INFO] - Reading Special Seed Counters
-[INFO] - Done Reading Special Seed Counters
-[INFO] - Reading Bestiary Counters
-[INFO] - Done Reading Bestiary Counters
-[INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
-[INFO] - Loading GameState 1 from SteamCloud!
-[INFO] - GameState Version Loaded: 136
-[INFO] - Menu Game Init
-[INFO] - Menu Daily Init
-[INFO] - Menu Character Init
-[INFO] - Menu SpecialSeed Init
-[INFO] - Menu Challenge Init
-[INFO] - Menu Collection Init
-[INFO] - Menu Stats Init
-[INFO] - Menu Mods Init
-[INFO] - Menu Options Init
-[INFO] - Menu Controller Init
-[INFO] - Menu Key Config Init
-[INFO] - Menu Cutscene Init
-[INFO] - Menu Bestiary Init
-[INFO] - Menu Custom Challenge Init
+[INFO] - Room 1.503(New Room)
+[INFO] - SpawnRNG seed: 2829244885
+[INFO] - Spawn Entity with Type(218), Variant(0), Pos(480.00,160.00)
+[INFO] - Spawn Entity with Type(218), Variant(0), Pos(240.00,200.00)
+[INFO] - Spawn Entity with Type(218), Variant(0), Pos(400.00,360.00)
+[INFO] - Spawn Entity with Type(218), Variant(0), Pos(160.00,400.00)
+[INFO] - Lua mem usage: 608 KB and 335 bytes
+[INFO] - Queued Path music/diptera layer.ogg
+[INFO] - Queued Path music/diptera sonata(basement).ogg
+[INFO] - Room 2.3()
+[INFO] - SpawnRNG seed: 3186935377
+[INFO] - Spawn Entity with Type(6), Variant(8), Pos(200.00,160.00)
+[INFO] - Spawn Entity with Type(33), Variant(0), Pos(280.00,200.00)
+[INFO] - Spawn Entity with Type(17), Variant(0), Pos(320.00,200.00)
+[INFO] - Spawn Entity with Type(33), Variant(0), Pos(360.00,200.00)
+[INFO] - Spawn Entity with Type(5), Variant(150), Pos(160.00,320.00)
+[INFO] - Spawn Entity with Type(5), Variant(150), Pos(240.00,320.00)
+[INFO] - Spawn Entity with Type(5), Variant(150), Pos(320.00,320.00)
+[INFO] - Spawn Entity with Type(5), Variant(150), Pos(400.00,320.00)
+[INFO] - Spawn Entity with Type(5), Variant(150), Pos(480.00,320.00)
+[INFO] - Lua mem usage: 608 KB and 335 bytes
+[INFO] - Viewport: 1920x1080
+[INFO] - Framebuffer Width: 1920 
+ Render Width: 960 
+ Window Width: 1920 
+ Multiplier: 4.500010 
+ DP per point: 1.000000 
+ Point Scale: 2.000000 
+[INFO] - HQX4 size: 960x540
 [INFO] - Viewport: 960x540
 [INFO] - Framebuffer Width: 960 
  Render Width: 960 
@@ -386,6 +262,8 @@ idth: 1920
  Point Scale: 2.000000 
 [INFO] - HQX4 size: 960x540
 [INFO] - Saving PersistentGameData to Steam Cloud: rep_persistentgamedata1.dat.
+[INFO] - Setting PersistentGameData ReadOnly to False
+[INFO] - CPU time spent on enemy queries: 0.00 seconds.
 [INFO] - CPU time spent on enemy queries: 0.00 seconds.
 [INFO] - delete 1237 rooms.
 [INFO] - delete 1115 rooms.
